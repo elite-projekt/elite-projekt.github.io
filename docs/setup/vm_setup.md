@@ -110,12 +110,14 @@ using the `su` command. To go back to the normal user either press
 
 A newer version of virt-viewer has to be installed to make automatic USB
 redirection work. Download this file and run the following commands:
-[virt-package.deb](../../_static/virt-package.deb)
+[virt-package.deb](/setup/virt-package.deb)
 
-    su
-    export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
-    dpkg -i virt-package.deb
-    apt-get install -f
+```
+su
+export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+dpkg -i virt-package.deb
+apt-get install -f
+```
 
 ### Configure network
 
