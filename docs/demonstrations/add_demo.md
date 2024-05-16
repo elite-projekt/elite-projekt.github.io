@@ -9,7 +9,7 @@
     controller of your demo.
 2.  To add a new demo to the ecosystem you need to have a fully set up
     workstation as described in the [Setup of a Workstation
-    guide](setup/client_setup.html)
+    guide](/todo)
 3.  All code that is used by the NativeApp needs to be Python 3.9
     compatible! We use setuptools to build our application which
     requires python \>3.9.
@@ -35,7 +35,7 @@
     demos for small guidance.
 8.  Now you can install and run the NativeApp as described in [NativeApp
     (Section Developing/Testing
-    Locally)](nativeapp.html#debugging-and-testing-locally). The
+    Locally)](/todo). The
     NativeApp will run and wait for commands of the plattform.
 
 ### demo.json file
