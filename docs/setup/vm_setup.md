@@ -360,8 +360,7 @@ The most important config setting is following:
 </cpu>
 ```
 
-Here is the complete XML config:
-[kvm_config_example.xml](../../_static/kvm_config_example.xml)
+Here is the complete XML config: [kvm_config_example.xml](/setup/kvm_config_example.xml)
 
 #### Lockdown client
 
