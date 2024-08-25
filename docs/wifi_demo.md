@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # WiFi Demo
 
 To use the WiFi demo, you need a host with two WiFi interfaces. One of

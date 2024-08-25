@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Creating Certificates
 
 ## Usage
@@ -61,16 +65,18 @@ imported into the browser / thunderbird.
 ### Create new certificates (csr+sign)
 
 In `demoCA` run
-
-    ./sign_cert.py --domains <domain> --ca-cert intermediateCA.crt --ca-key intermediateCA.key
+````
+./sign_cert.py --domains <domain> --ca-cert intermediateCA.crt --ca-key intermediateCA.key
+````
 
 to generate a new certificate.
 
 ### Create a cert chain
 
 Just concat the certs:
-
-    cat <your cert> intermediateCA.crt rootCA.crt > cert_chain.pem
+````
+cat <your cert> intermediateCA.crt rootCA.crt > cert_chain.pem
+````
 
 ### smime
 

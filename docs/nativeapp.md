@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Native App
 
 The NativeApp component encapsulates all operations that need native
@@ -224,10 +228,12 @@ Starts password Demo in secure mode on local Client.
 
 Example return:
 
+````
 | {
 | "message": "Successfully started the Demo.",
 | "success": true
 | }
+````
 
 **Endpoint:**
 
@@ -236,6 +242,7 @@ Method: POST
 Type: RAW
 URL: http://localhost:5000/orchestration/start/demo/password
 ```
+
 
 **Body:**
 
@@ -249,11 +256,15 @@ Returns actual status of the password demonstration.
 
 Ether
 
+````
 { "password_webserver": "running"}
+````
 
 or
 
+````
 { "password_webserver": "not found"}
+````
 
 **Endpoint:**
 
@@ -269,7 +280,9 @@ Stops password Demonstration on local Client
 
 Example return:
 
+````
 { "message": "Stopped all remaining Demos.", "success": **true**}
+````
 
 **Endpoint:**
 

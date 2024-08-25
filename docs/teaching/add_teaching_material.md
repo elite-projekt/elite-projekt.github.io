@@ -12,7 +12,7 @@
 | The Tutor Account gives access to the Adminterminal of the Platform -
   Reachable in general under `yourdomain/wp-admin`
 | For the Dev-ELITE-Platform the URL is
-  <https://dev.elite.fbi.h-da.de/wp-admin/>
+  [https://dev.elite.fbi.h-da.de/wp-admin/](https://dev.elite.fbi.h-da.de/wp-admin/)
 
 **Please only add and change content to/on the Dev-Platform.**
 

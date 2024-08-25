@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # Introduction
 
 We live in a time of increasing digitalization which results in an
