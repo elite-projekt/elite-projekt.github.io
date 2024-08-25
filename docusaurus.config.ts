@@ -130,8 +130,4 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-onBrokenLinks: {
-  ignore;
-}
-
 export default config;
