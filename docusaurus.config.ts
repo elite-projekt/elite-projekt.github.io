@@ -70,12 +70,12 @@ const config: Config = {
           position: 'left',
           label: 'Dokumentation',
         },
-        {href: 'https://github.com/elite-projekt/demonstrations', label: 'Repo', position: 'left'},
-        {
+        {href: 'https://github.com/elite-projekt/demonstrations', label: 'Repository', position: 'left'},
+        /*{
           href: 'https://github.com/elite-projekt/demonstrations',
           label: 'GitHub',
           position: 'right',
-        },
+        },*/
       ],
     },
     footer: {
