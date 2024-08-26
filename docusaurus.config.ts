@@ -72,7 +72,7 @@ const config: Config = {
         },
         {to: '/repo', label: 'Repo', position: 'left'},
         {
-          href: 'https://github.com/orgs/elite-projekt/repositories',
+          href: 'https://github.com/elite-projekt/demonstrations',
           label: 'GitHub',
           position: 'right',
         },
