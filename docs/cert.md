@@ -23,8 +23,12 @@ Example how to import certificate in Firefox:
 Importing the certificate in Firefox is done by following this menu
 structure:
 `Settings -> privacy and security -> certificates -> Certificate Manager -> Authorities -> import`
-![firefox_cert](img/firefox_cert.png) In the popup after clicking import
+
+![firefox_cert](img/firefox_cert.png)  
+
+In the popup after clicking import
 choose "Trust this CA to identify websites." and click OK.
+
 ![ca](img/ca.png)
 
 Importing the root certificate has to be done for Thunderbird, too.
